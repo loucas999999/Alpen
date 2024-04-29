@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpen - Home Page</title>
-    <link rel="icon" href="/Images/Alpen Icon.png" />
+    <link rel="icon" href="/Images/Alpen New Icon.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,6 +23,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -43,26 +49,23 @@
         <div class="header__nav-div">
           <ul>
             <li class="header__nav-li header__list1">
-              <a href="/About/index.html">About</a>
+              <a href="/Portfolio/index.html">Portfolio</a>
             </li>
-            <li class="header__nav-li header__list2">
+            <li class="header__nav-li header__list2" id="services">
               <a id="test" href="#">Services</a>
             </li>
-            <!-- <li class="header__nav-li header__list3">
-              <a class="test" href="">Portfolio</a>
-            </li> -->
-            <li class="header__nav-li header__list4">
-              <a href="/Contact/index.html">Contact Us</a>
+            <li class="header__nav-li header__list3">
+              <a href="/Blog/index.html">Blog & Resources</a>
             </li>
-            <!-- <li class="header__nav-li header__list5">
-              <a href="">Blog & Resources</a>
-            </li> -->
+            <li class="header__nav-li header__list4">
+              <a href="/Pricing/index.html">Pricing</a>
+            </li>
           </ul>
         </div>
         <div class="header__socials-div">
           <ul>
             <li class="header__socials social1">
-              <a href="">
+              <a href="https://www.instagram.com/alpency/">
                 <svg
                   class="icons icon1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +81,9 @@
               </a>
             </li>
             <li class="header__socials social2">
-              <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDfkCjZjrKCnmZGMCFPXXkWCWWHHWZjmbXpdZJqhnMszWmmrNFHSsQvqbrpsmzXSwSGxWW">
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDfkCjZjrKCnmZGMCFPXXkWCWWHHWZjmbXpdZJqhnMszWmmrNFHSsQvqbrpsmzXSwSGxWW"
+              >
                 <svg
                   class="icons icon2"
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +104,6 @@
                 <img
                   class="cyprus icons"
                   src="/Images/cyprus-flag-national-europe-emblem-icon-illustration-abstract-design-element-free-vector.png"
-                  alt=""
                 />
               </a>
             </li>
@@ -108,13 +112,14 @@
       </div>
       <div class="first__section__main-div container">
         <div class="centering__div">
-          <h1 class="container__heading">Risk. create. grow.</h1>
-          <p class="container__paragraph">
-            When all Hope is lost, we come in and Guide YOU through.
-          </p>
+          <h1 class="container__heading left__slide-in">
+            The <strong class="strong__text1">Ultimate</strong> solution for your business.
+          </h1>
+          <p class="container__paragraph">Web Development Agency</p>
           <a href="/Contact/index.html"
-            ><button class="container__btn">Lets Talk</button></a
+            ><button class="container__btn">Partner Up</button></a
           >
+          <a href="#"><button class="container__btn2">Learn More</button></a>
         </div>
       </div>
     </section>
@@ -122,22 +127,25 @@
     <!-- SECOND SECTION -->
     <section class="second-section">
       <div class="height-of-text">
-        <div class="text-top-right">
-          <p class="p1">Build For Growth</p>
-          <h2 class="h2-ss">Take your business, to the Moon</h2>
+        <div class="text-top-right hidden">
+          <p class="p1">Choose Precisely</p>
+          <h2 class="h2-ss">All of our services explained simply</h2>
           <p class="p2">
-            Businesses reach out to us because we offer them a uniquely and easy
-            to use website boosting their performance on the digital world,
-            resulting in more customers and better reviews. Additionaly we also
-            offer photography services, if needed of course!
+            Explore the array of services we offer below. Each service is
+            designed with your satisfaction in mind, providing tailored
+            solutions that address your specific <strong>problems</strong>.
+            <br />
+            Let us face your issues with <strong>ease</strong>.
           </p>
         </div>
       </div>
 
-      <div class="main hidden">
+      <div class="main" id="services" name="services">
         <div class="extra-left">
           <div class="left-side">
-            <div class="boxes box1" onmouseover="HoverEffect" onmouseout="">
+            <div
+              class="boxes box1 hidden"
+            >
               <div class="grey-box-inside greybox1"></div>
               <div class="under__grey-box">
                 <div class="smaller-grey-box-inside">
@@ -154,16 +162,18 @@
                   </svg>
                   <div class="text__next-to-div">Meetup Call</div>
                 </div>
-                <h2>Communication Is Key To Us</h2>
+                <h2>Communication is key to us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                  deserunt suscipit placeat iste, pariatur nulla vero officia
-                  dignissimos consequatur, laboriosam natus, enim rem possimus
-                  voluptatem ipsa voluptates debitis numquam dolores?
+                  Effective communication is crucial as it ensures clear
+                  understanding and alignment of goals within the team, and it
+                  builds trust with clients like you. By minimizing
+                  misunderstandings, it boosts efficiency and supports a strong,
+                  collaborative work environment. This leads to better results
+                  and lasting business relationships.
                 </p>
               </div>
             </div>
-            <div class="boxes box2">
+            <div class="boxes box2 hidden">
               <div class="grey-box-inside greybox2"></div>
               <div class="under__grey-box">
                 <div class="smaller-grey-box-inside">
@@ -180,19 +190,23 @@
                   </svg>
                   <div class="text__next-to-div">Web Development</div>
                 </div>
-                <h2>Website Creation Is The Main focus</h2>
+                <h2>Website creation is the main focus</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                  deserunt suscipit placeat iste, pariatur nulla vero officia
-                  dignissimos consequatur, laboriosam natus, enim rem possimus
-                  voluptatem ipsa voluptates debitis numquam dolores?
+                  In today's digital world, having a website is essential for
+                  your business. It serves as your 24/7 digital storefront,
+                  providing a platform to showcase your products and services,
+                  and helping to build credibility and attract more customers.
+                  Additionally, it supports marketing efforts like SEO to expand
+                  your reach. Investing in a professionally coded website is not
+                  just beneficial—it's a necessity for maintaining relevance and
+                  boosting your market presence.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div class="right-side">
-          <div class="boxes box3">
+          <div class="boxes box3 hidden">
             <div class="grey-box-inside greybox3"></div>
             <div class="under__grey-box">
               <div class="smaller-grey-box-inside">
@@ -211,14 +225,18 @@
               </div>
               <h2>Search Engine Optimization Boost</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                deserunt suscipit placeat iste, pariatur nulla vero officia
-                dignissimos consequatur, laboriosam natus, enim rem possimus
-                voluptatem ipsa voluptates debitis numquam dolores?
+                Our SEO services help your business reach a wider audience by
+                improving your website's visibility in search engine results. By
+                optimizing your site content with relevant keywords, enhancing
+                site structure, and building quality backlinks, we ensure your
+                business ranks higher when potential customers search for
+                services like yours. This targeted visibility leads to increased
+                traffic, more leads, and ultimately, higher conversions and
+                growth for your business.
               </p>
             </div>
           </div>
-          <div class="boxes box4">
+          <div class="boxes box4 hidden">
             <div class="grey-box-inside greybox4"></div>
             <div class="under__grey-box">
               <div class="smaller-grey-box-inside">
@@ -237,10 +255,13 @@
               </div>
               <h2>We take Photos, you make the Show</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                deserunt suscipit placeat iste, pariatur nulla vero officia
-                dignissimos consequatur, laboriosam natus, enim rem possimus
-                voluptatem ipsa voluptates debitis numquam dolores?
+                We also offer professional photography if needed. This allows us
+                to create custom, high-quality images specifically for your
+                website, ensuring that your online presence is both unique and
+                visually appealing. Using our own photos can greatly enhance the
+                design and authenticity of your site. This integrated approach
+                ensures that your website not only looks fantastic but also
+                truly stands out in the digital landscape.
               </p>
             </div>
           </div>
@@ -250,79 +271,152 @@
 
     <!-- THIRD SECTION, FAQ -->
     <section class="section__faq">
-      <h2 class="title">How can we Help You?</h2>
-      <p class="paragraph">Hi, here we've gathered some of the most commonly asked questions to help provide you with quick answers to your inquiries. Whether you're curious about our services, policies, or any other aspect of our operations, we hope you'll find the information you're looking for right here. If your question isn't answered below, please don't hesitate to reach out to us directly for further assistance.
-      </p>
-<!-- 
-      <div class="faq">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
-        </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam natus assumenda ducimus accusamus nam, nesciunt, corporis doloremque sequi laboriosam eos voluptate optio odit temporibus vel veritatis iusto molestias iste quidem?</p>
-        </div>
-      </div> -->
-      <div class="faq">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
-        </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam natus assumenda ducimus accusamus nam, nesciunt, corporis doloremque sequi laboriosam eos voluptate optio odit temporibus vel veritatis iusto molestias iste quidem?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quia molestias amet ullam facilis, officia eos veniam unde atque quibusdam doloribus minus doloremque aut commodi ad rem! Deleniti, praesentium explicabo?</p>
+      <div class="section__faq__left-div">
+        <div class="section__faq__left-div__centering-div">
+          <h2 class="title hidden">How can we help you?</h2>
+          <p class="faq__inform hidden">Frequently asked questions</p>
+          <p class="paragraph hidden">
+            Hi, here we've gathered some of the most commonly asked questions to
+            help provide you with quick answers to your inquiries. Whether
+            you're curious about our services, policies, or any other aspect of
+            our operations, we hope you'll find the information you're looking
+            for right here. If your question isn't answered below, please don't
+            hesitate to reach out to us directly for further assistance.
+          </p>
+          <div class="gap__between-btns hidden">
+            <a href=""><button class="faq__btn1">Contact us</button></a>
+            <a href=""
+              ><button class="faq__btn2">Further information</button></a
+            >
+          </div>
         </div>
       </div>
 
-      <div class="faq faq2">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
+      <div class="section__faq__right-div hidden">
+        <div class="faq">
+          <div class="question">
+            <h3>This is a sample text</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              natus assumenda ducimus accusamus nam, nesciunt, corporis
+              doloremque sequi laboriosam eos voluptate optio odit temporibus
+              vel veritatis iusto molestias iste quidem?Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Qui quia molestias amet ullam
+              facilis, officia eos veniam unde atque quibusdam doloribus minus
+              doloremque aut commodi ad rem! Deleniti, praesentium explicabo?
+              <a href="">read more</a>
+            </p>
+          </div>
         </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a officia dolor odio tenetur! Impedit odit ex deleniti accusantium et sit!</p>
+
+        <div class="faq faq2">
+          <div class="question">
+            <h3>How long do projects ussualy take?</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              We prefer taking our time to create excellence rather than rushing
+              to meet a deadline. If its a necessity for you to get our services
+              asap, quickly inform us. <a href="">read more</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="faq faq3">
+          <div class="question">
+            <h3>This is a sample text</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a
+              officia dolor odio tenetur! Impedit odit ex deleniti accusantium
+              et sit! <a href="">read more</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="faq faq4">
+          <div class="question">
+            <h3>This is a sample text</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a
+              officia dolor odio tenetur! Impedit odit ex deleniti accusantium
+              et sit! <a href="">read more</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="faq faq5">
+          <div class="question">
+            <h3>Are refunds available?</h3>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Unfortunately, refunds are not available for our web development
+              services as resources are allocated immediately to ensure timely
+              project completion and high-quality delivery.
+              <a href="">read more</a>
+            </p>
+          </div>
         </div>
       </div>
-
-
-      <div class="faq faq3">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
-        </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a officia dolor odio tenetur! Impedit odit ex deleniti accusantium et sit!</p>
-        </div>
-      </div>
-
-
-      <div class="faq faq4">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
-        </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a officia dolor odio tenetur! Impedit odit ex deleniti accusantium et sit!</p>
-        </div>
-      </div>
-
-
-      <div class="faq faq5">
-        <div class="question">
-          <h3>This is a sample text</h3>
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"/></svg>
-        </div>
-        <div class="answer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi vel, debitis non corrupti porro, hic reprehenderit, ratione a officia dolor odio tenetur! Impedit odit ex deleniti accusantium et sit!</p>
-        </div>
-      </div>
-      
-
     </section>
 
     <footer>
@@ -330,7 +424,17 @@
         <div class="main__footer-toptext">
           <div class="text__footer">
             <p>
-              It is highly reccomended to carefully read the privacy policies and terms of conditions for every client because it ensures that you're fully informed about how your engaging with our team and services, what rights you retain as a client, and the obligations you're agreeing to. These documents outline the legal framework governing your use of services or products, including the pricing but also the time period needed for the completion. Understanding these details helps protect your rights and prevent misunderstandings. It also empowers you to make informed decisions about engaging with our services, ensuring that your consent is truly informed and based on a clear comprehension of how we work.
+              It is highly reccomended to carefully read the privacy policies
+              and terms of conditions for every client because it ensures that
+              you're fully informed about how your engaging with our team and
+              services, what rights you retain as a client, and the obligations
+              you're agreeing to. These documents outline the legal framework
+              governing your use of services or products, including the pricing
+              but also the time period needed for the completion. Understanding
+              these details helps protect your rights and prevent
+              misunderstandings. It also empowers you to make informed decisions
+              about engaging with our services, ensuring that your consent is
+              truly informed and based on a clear comprehension of how we work.
             </p>
           </div>
         </div>
@@ -339,7 +443,7 @@
           <div class="footer__first-ul">
             <ul>
               <h3>Terms & Conditions</h3>
-              <a href="">
+              <a href="/TERMS & PRIVACIES/index.html">
                 <li>Payment</li>
               </a>
               <a href="">
@@ -405,23 +509,61 @@
               </a>
             </ul>
           </div>
+          <div class="footer__fourth-ul">
+            <ul>
+              <h3 class="footer__fourth-ul-h3">Socials</h3>
+              <div class="testing">
+                <a href="">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"
+                      />
+                      <circle cx="11.994" cy="11.979" r="3.003" />
+                    </svg>
+                  </li>
+                </a>
+                <a href="">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"
+                      />
+                    </svg>
+                  </li>
+                </a>
+              </div>
+            </ul>
+          </div>
         </div>
         <div class="text__under-ul">
           <p>
-            Any issues with the website contact <a href="mailto:example@gmail.com">alpencyprus@gmail.com</a> or call at <a href="tel:357 99725225">+357 99725225</a>
+            Any issues with the website contact
+            <a href="mailto:example@gmail.com">alpencyprus@gmail.com</a> or call
+            at <a href="tel:357 99725225">+357 99725225</a>
           </p>
-          <p>You can find us on @alpencyprus on Instagram</p>
+          <p>You can find us on @alpency            on Instagram</p>
         </div>
         <hr class="footer__hr-undertext" />
         <div class="footer__text-bottom">
-          <div class="footer__text-bottom-left">Copyright © 2024 Alpen Inc. All rights reserved.</div>
+          <div class="footer__text-bottom-left">
+            Copyright © 2024 Alpen Inc. All rights reserved.
+          </div>
           <div class="footer__main-text-bottom-div">
             <div class="footer__text-bottom-right"><a href="">site map</a></div>
             <div class="footer__text-bottom-right">Cyprus</div>
           </div>
         </div>
-        
-        
       </div>
     </footer>
 
